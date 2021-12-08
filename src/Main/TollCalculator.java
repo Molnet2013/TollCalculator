@@ -3,7 +3,6 @@ package Main;
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-
 import Interfaces.ITollable;
 
 public class TollCalculator {

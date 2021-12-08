@@ -2,11 +2,9 @@ package Main;
 
 import Vehicle.Vehicle;
 import java.util.Random;
-
-import Interfaces.ITollable;
-
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
+import Interfaces.ITollable;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -66,6 +64,6 @@ public class Main {
         } else {
             System.out.println("Passed on a " + flash.getDayOfWeek() + " at hour " + flash.getHour() + ": " + fee + " kr.");
         }
-        System.out.println("Total Fee of Vehicle above today: " + vehicle.getCurrentTotalFee() + " kr.\n");
+        System.out.println("Total Fee today: " + vehicle.getCurrentTotalFee() + " kr.\n");
     }
 }

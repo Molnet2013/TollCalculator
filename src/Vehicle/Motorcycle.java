@@ -1,7 +1,6 @@
 package Vehicle;
 
 import java.time.LocalDateTime;
-
 import Interfaces.ITollable;
 
 public class Motorcycle extends Vehicle implements ITollable {
