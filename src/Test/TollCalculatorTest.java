@@ -1,7 +1,5 @@
 package Test;
 
-import java.time.LocalDateTime;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,6 +9,7 @@ import Main.TollCalculator;
 import Vehicle.Car;
 import Vehicle.Motorcycle;
 import Vehicle.Vehicle;
+import java.time.LocalDateTime;
 
 public class TollCalculatorTest {
     @Test

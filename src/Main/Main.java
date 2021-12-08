@@ -1,16 +1,10 @@
 package Main;
 
 import Vehicle.Vehicle;
-
-import java.util.Date;
 import java.util.Random;
-
-import Interfaces.ITollable;
-
 import java.time.DayOfWeek;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
+import Interfaces.ITollable;
 
 public class Main {
     public static void main(String[] args) throws Exception {

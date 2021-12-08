@@ -1,7 +1,6 @@
 package Main;
 
 import java.time.LocalDateTime;
-
 import Interfaces.ITollable;
 import Vehicle.Car;
 import Vehicle.Motorcycle;
